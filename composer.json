@@ -3,7 +3,6 @@
   "type": "library",
   "license": "MIT",
   "require": {
-    "vendor/customer-module": "*",
     "filament/filament": "^3.2",
     "spatie/laravel-package-tools": "^1.16"
   },
