@@ -1,0 +1,29 @@
+{
+  "name": "abdelrahman/customer-package",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "vendor/customer-module": "*",
+    "filament/filament": "^3.2",
+    "spatie/laravel-package-tools": "^1.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "Abdelrahman\\CustomerPackage\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../customer-package"
+    }
+  ],
+  "authors": [
+    {
+      "name": "abdoalielbaz",
+      "email": "abdoalielbaz@gmail.com"
+    }
+  ]
+}
